@@ -204,7 +204,7 @@ section{
   padding: 10%;
   
   .heading{
-    margin-bottom: 30px;
+    margin-bottom: 8px;
   }
 
   &.yellow{
@@ -260,6 +260,7 @@ section{
 .card{
   border-radius: 6px;
   border: none;
+  min-height: 430px;
 }
 
 // styles for timeline
