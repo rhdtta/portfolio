@@ -1,0 +1,29 @@
+{
+	"title" : "Projects",
+	"projects" : [
+		{
+			"name" : "Store Locator Module",
+			"position" : "Bunzl",
+			"desc": "Built a module from scratch using React, Redux & GoogleMaps API that could locate retail stores using geo-location of user or keywords",
+			"timeperiod" : "May 2021"
+		},
+		{
+			"name" : "Payment Module Integration",
+			"position" : "Bunzl",
+			"desc": " Integrated end-to-end flow of Adyen payment module using vanilla JS and covered safe-checks to ensure seamless payment experience for users",
+			"timeperiod" : "May 2021"
+		},
+		{
+			"name" : "Oreo SPA Microsite",
+			"position" : "Bunzl",
+			"desc": "Built a Vue-based microsite for purpose of engaging customer using Express in backend and Tailwind as CSS framework.",
+			"timeperiod" : "May 2021"
+		},
+		{
+			"name" : "Pickup Functionality Module",
+			"position" : "Bunzl",
+			"desc": "Implemented a new checkout flow for users with customised features as per client requirements",
+			"timeperiod" : "May 2021"
+		}
+	]
+}

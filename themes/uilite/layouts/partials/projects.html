@@ -1,0 +1,18 @@
+{{ $projects := .Site.Data.projects }}
+
+<section id="projects" class="blue">
+    <h2 class="heading">{{ $projects.title }}</h2>
+    <div class="row justify-content-md-left text-left bs">
+        {{ range $index, $element := $projects.projects }}
+        <div class="col-12 col-lg-6 col-md-6 mb-3 bs">
+            <div class="card p-4 bs">
+                <h3 class="mt-4">{{ $element.name }}</h3>
+                <h6 class="mt-2">{{ $element.position }}</h6>
+                <p class="mt-2 bs">{{ $element.desc }}</p>
+                <p class="card-text bs"><small class="text-muted">{{ $element.timeperiod }}</small></p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+  
+</section>

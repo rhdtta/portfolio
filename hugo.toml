@@ -1,0 +1,4 @@
+baseURL = 'https://rhdutta.netlify.app/public/'
+languageCode = 'en-us'
+title = 'Rohit Dutta - Full Stack Developer'
+theme = "uilite"
